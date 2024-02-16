@@ -11,8 +11,8 @@ class Graph:
     def add_relationship(self, member1, member2):
         member1.friends.append[member2] #add member 2 to the friend list of member1
 
-
-
+    def find_friends(self, member1):
+        return member1.friends
 
 network = Graph()
 
