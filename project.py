@@ -7,6 +7,8 @@ class Graph:
     def add_mem(self, name, age)
         self.name = name
         self.age = age
+        self.friends = []
+
 
     def find_friends(self, member1):
         if member1 in self.friends:
@@ -16,6 +18,7 @@ class Graph:
         return []
 
     def add_rel(self, member1, member2):
+        member1.friends.append[member2]
 
 
 network = Graph()
