@@ -9,6 +9,8 @@ class Graph:
         self.friends = []
 
     def add_relationship(self, member1, member2):
+        member1.friends.append[member2]
+        member2.friends.append[member1]
 
 
 
