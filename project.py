@@ -3,11 +3,15 @@ class Graph:
     def __init__(self):
         self.members = {}  #store members and relationships
 
-    def add_mem(self, name, age)
+    def add_member(self, name, age):
         self.name = name
         self.age = age
+        self.friends = []
 
-    def add_rel(self, member1, member2):
+    def add_relationship(self, member1, member2):
+        member1.friends.append[member2] #add member 2 to the friend list of member1
+
+
 
 
 network = Graph()
